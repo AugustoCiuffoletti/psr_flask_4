@@ -2,17 +2,10 @@
 
 Queste istruzioni sono relative alla macchina "desktop" del laboratorio virtuale.
 
-Per svolgere l'attività di laboratorio digitare, in una console della macchina virtuale, i seguenti comandi:
+Per svolgere l'attività di laboratorio digitare, in una console della macchina virtuale, il comando:
 
 ```
-#!bash
-
-$ cd
-$ . Flask/bin/activate
-$ git clone git@bitbucket.org:augusto_ciuffoletti/lab_flask_4.git
-$ cd lab_flask_4
-$ export FLASK_APP=login.py
-$ flask run --host=0.0.0.0
+$ make run
 ```
 
 Dal computer host, quello reale, aprite il browser e digitate la url:
@@ -30,4 +23,4 @@ e verificate che venga visualizzato l'ultimo utente dichiarato nel login
 
 ## Esercizio ##
 
-Fate in modo che la route "id" sia visualizzata solo se l'utente è stato riconosciuto
+Fate in modo che la route "id" sia visualizzata solo se l'utente è stato riconosciuto.
